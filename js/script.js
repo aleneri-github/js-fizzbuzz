@@ -12,7 +12,7 @@
 for (var i = 1; i < 100 + 1; i++) {
 
   if ((i % 3 == 0) && (i % 5 == 0)) {
-    document.getElementById('listanumeri').innerHTML +=  "FIZZBUZZ" + "<br>";
+    document.getElementById('listanumeri').innerHTML += "FIZZBUZZ" + "<br>";
   }
 
   else if(i % 3 == 0) {
