@@ -10,6 +10,7 @@ display: table;
 clear: both;
 }
 
+/* NOTE: Sfondo */
 #left {
   float: left;
   height: 100vh;
@@ -18,6 +19,7 @@ clear: both;
   background-size: contain;
 }
 
+/* NOTE: Colonna di destra */
 #right {
   float: right;
   height: 100vh;
@@ -29,18 +31,23 @@ clear: both;
   font-family: fantasy;
 }
 
+
+/* NOTE: Colore numeri */
 #listanumeri li {
   color: white;
 }
 
+/* NOTE: Multipli di 3 */
 #listanumeri li.green {
   color: green;
 }
 
+/* NOTE: Mmultipli di 5 */
 #listanumeri li.orange {
   color: orange;
 }
 
+/* NOTE: Multipli di 3 e 5 */
 #listanumeri li.red {
   color: red;
 }
