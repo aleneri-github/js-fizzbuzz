@@ -24,7 +24,19 @@ clear: both;
   width: 20%;
   text-align: center;
   overflow: scroll;
-  background-color: lightgrey;  
+  background-color: lightgrey;
   font-size: 30px;
   font-family: fantasy;
+}
+
+#listanumeri li.green {
+  color: green;
+}
+
+#listanumeri li.blue {
+  color: blue;
+}
+
+#listanumeri li.red {
+  color: red;
 }

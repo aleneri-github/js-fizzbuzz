@@ -12,19 +12,19 @@
 for (var i = 1; i < 100 + 1; i++) {
 
   if ((i % 3 == 0) && (i % 5 == 0)) {
-    document.getElementById('listanumeri').innerHTML += "FIZZBUZZ" + "<br>";
+    document.getElementById('listanumeri').innerHTML += "<li class = red>" +"FIZZBUZZ" + "</li>";
   }
 
   else if(i % 3 == 0) {
-    document.getElementById('listanumeri').innerHTML += "FIZZ" + "<br>";
+    document.getElementById('listanumeri').innerHTML += "<li class= green>" +"FIZZ" + "</li>";
   }
 
   else if(i % 5 == 0) {
-    document.getElementById('listanumeri').innerHTML += "BUZZ" + "<br>";
+    document.getElementById('listanumeri').innerHTML += "<li class = blue>" +"BUZZ" + "</li>";
   }
 
   else {
-    document.getElementById('listanumeri').innerHTML += i + "<br>";
+    document.getElementById('listanumeri').innerHTML += "<li>" + i + "</li>";
   }
 
 }
