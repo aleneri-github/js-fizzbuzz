@@ -23,18 +23,22 @@ clear: both;
   height: 100vh;
   width: 20%;
   text-align: center;
-  overflow: scroll;
-  background-color: lightgrey;
+  overflow-y: scroll;
+  background-image: url('https://www.myfreetextures.com/wp-content/uploads/2019/11/abstract-black-grunge-texture-scaled.jpg');
   font-size: 30px;
   font-family: fantasy;
+}
+
+#listanumeri li {
+  color: white;
 }
 
 #listanumeri li.green {
   color: green;
 }
 
-#listanumeri li.blue {
-  color: blue;
+#listanumeri li.orange {
+  color: orange;
 }
 
 #listanumeri li.red {

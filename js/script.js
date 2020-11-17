@@ -20,7 +20,7 @@ for (var i = 1; i < 100 + 1; i++) {
   }
 
   else if(i % 5 == 0) {
-    document.getElementById('listanumeri').innerHTML += "<li class = blue>" +"BUZZ" + "</li>";
+    document.getElementById('listanumeri').innerHTML += "<li class = orange>" +"BUZZ" + "</li>";
   }
 
   else {
