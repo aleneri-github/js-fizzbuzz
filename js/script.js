@@ -10,5 +10,6 @@
 // 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano".
 
 for (var i = 1; i < 100 + 1; i++) {
-  console.log(i);
+
+  document.getElementById('listanumeri').innerHTML += i + "<br>";
 }
