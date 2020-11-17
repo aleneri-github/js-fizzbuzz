@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+content: "";
+display: table;
+clear: both;
+}
+
+#left {
+  float: left;
+  height: 100vh;
+  width: 80%;
+  background-image: url('../img/fizzbuzz.jpeg');
+  background-size: contain;
+}
+
+#right {
+  float: right;
+  height: 100vh;
+  width: 20%;
+  text-align: center;
+  overflow: scroll;
+  background-color: red;
+}
