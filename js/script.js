@@ -12,21 +12,19 @@
 for (var i = 1; i < 100 + 1; i++) {
 
   if ((i % 3 == 0) && (i % 5 == 0)) {
-    console.log('FIZZBUZZ');
+    document.getElementById('listanumeri').innerHTML +=  "FIZZBUZZ" + "<br>";
   }
 
   else if(i % 3 == 0) {
-    console.log('FIZZ');
+    document.getElementById('listanumeri').innerHTML += "FIZZ" + "<br>";
   }
 
   else if(i % 5 == 0) {
-    console.log('BUZZ');
+    document.getElementById('listanumeri').innerHTML += "BUZZ" + "<br>";
   }
 
   else {
-    console.log(i);
+    document.getElementById('listanumeri').innerHTML += i + "<br>";
   }
 
-
-  document.getElementById('listanumeri').innerHTML += i + "<br>";
 }
